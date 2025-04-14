@@ -83,7 +83,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="mb-0">Veículos cadastrados 🚘</h4>
+                        <h4 class="mb-0">Veículos cadastrados 🚗</h4>
                     </div>
                     <div class="card-body">
 
@@ -102,10 +102,10 @@
                                         <td>Carro</td>
                                         <td>
                                             <span>
-                                                <button class="btn btn-success p-1" data-bs-toggle="modal" data-bs-target="#fordgt">Ford GT 2008</button>
+                                                <button class="btn btn-info p-1" data-bs-toggle="modal" data-bs-target="#fordgt">Uno</button>
                                             </span>
                                         </td>
-                                        <td>OVI1N14</td>
+                                        <td>ABC1D34</td>
                                         <td>
                                             <span>
                                                 <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalDisponivelFordGT2008" style="padding: 2px;">Disponível</button>
@@ -113,23 +113,23 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Carro</td>
+                                        <td>Moto</td>
                                         <td>
-                                            <span><button class="btn btn-warning p-1" data-bs-toggle="modal" data-bs-target="#modalcorsaclassic">Corsa Classic 2002</button></span>
+                                            <span><button class="btn btn-info p-1" data-bs-toggle="modal" data-bs-target="#modalcorsaclassic">Remaza</button></span>
                                         </td>
-                                        <td>AKU1N15</td>
+                                        <td>1D34ABC</td>
                                         <td>
                                             <span class="badge bg-warning">Alugado</span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Moto</td>
+                                        <td>Carro</td>
                                         <td>
-                                            <span><button class="btn btn-warning p-1" data-bs-toggle="modal" data-bs-target="#modalHayabusa2016">Hayabusa 2016</button></span>
+                                            <span><button class="btn btn-info p-1" data-bs-toggle="modal" data-bs-target="#modalHayabusa2016">Kwid</button></span>
                                         </td>
-                                        <td>KDPA740</td>
+                                        <td>DCF58I6</td>
                                         <td>
-                                            <span class="badge bg-success">Disponível</span>
+                                            <span class="badge bg-warning">Alugado</span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -145,26 +145,14 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="fordgt">Detalhes do Ford GT 2008</h5>
+                        <h5 class="modal-title" id="fordgt">Detalhes do UNO</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
                         <ul>
-                            <li><strong>Marca:</strong> Ford</li>
-                            <li><strong>Modelo:</strong> GT</li>
-                            <li><strong>Ano:</strong> 2008</li>
-                            <li><strong>Motor:</strong> 5.4L V8 Supercharged</li>
-                            <li><strong>Potência:</strong> 550 cavalos a 6.500 rpm</li>
-                            <li><strong>Torque:</strong> 678 Nm (69 kgfm) a 3.750 rpm</li>
-                            <li><strong>Transmissão:</strong> Manual de 6 marchas</li>
-                            <li><strong>Tração:</strong> Traseira (RWD)</li>
-                            <li><strong>0 a 100 km/h:</strong> Aproximadamente 3,6 segundos</li>
-                            <li><strong>Velocidade máxima:</strong> Cerca de 330 km/h</li>
-                            <li><strong>Peso:</strong> Aproximadamente 1.520 kg</li>
-                            <li><strong>Consumo médio:</strong> 5,5 km/l (cidade) / 8,5 km/l (estrada)</li>
-                            <li><strong>Tipo de carroceria:</strong> Coupé esportivo</li>
-                            <li><strong>Produção limitada:</strong> Cerca de 4.038 unidades (2005–2006)</li>
-                            <li><strong>Design inspirado:</strong> No clássico Ford GT40</li>
+                            <li><strong>Marca:</strong> Fiat</li>
+                            <li><strong>Modelo:</strong> Uno Xingu</li>
+                            <li><strong>Ano:</strong> 2013</li>
                         </ul>
                     </div>
                 </div>
@@ -176,26 +164,14 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalcorsaclassicLabel">Corsa Classic 2002</h5>
+                        <h5 class="modal-title" id="modalcorsaclassicLabel">Remaza</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
                         <ul>
-                            <li><strong>Marca:</strong> Chevrolet</li>
-                            <li><strong>Modelo:</strong> Corsa Classic</li>
-                            <li><strong>Ano:</strong> 2002</li>
-                            <li><strong>Motor:</strong> 1.0 ou 1.6 (dependendo da versão)</li>
-                            <li><strong>Potência:</strong> Aproximadamente 60 cv (1.0) / 92 cv (1.6)</li>
-                            <li><strong>Torque:</strong> 8,3 kgfm (1.0) / 13,3 kgfm (1.6)</li>
-                            <li><strong>Transmissão:</strong> Manual de 5 marchas</li>
-                            <li><strong>Tração:</strong> Dianteira (FWD)</li>
-                            <li><strong>0 a 100 km/h:</strong> Cerca de 15 segundos (1.0)</li>
-                            <li><strong>Velocidade máxima:</strong> Aproximadamente 150 km/h (1.0)</li>
-                            <li><strong>Peso:</strong> Aproximadamente 900 kg</li>
-                            <li><strong>Consumo médio:</strong> 10 km/l (cidade) / 14 km/l (estrada)</li>
-                            <li><strong>Tipo de carroceria:</strong> Sedã compacto</li>
-                            <li><strong>Combustível:</strong> Gasolina</li>
-                            <li><strong>Destaques:</strong> Econômico, manutenção barata e confiável</li>
+                            <li><strong>Marca:</strong> Honda</li>
+                            <li><strong>Modelo:</strong> Touring</li>
+                            <li><strong>Ano:</strong> 2012</li>
                         </ul>
                     </div>
                 </div>
@@ -207,37 +183,26 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalHayabusa2016Label">Suzuki Hayabusa 2016</h5>
+                        <h5 class="modal-title" id="modalHayabusa2016Label">Kwid</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
                         <ul>
-                            <li><strong>Marca:</strong> Suzuki</li>
-                            <li><strong>Modelo:</strong> GSX1300R Hayabusa</li>
-                            <li><strong>Ano:</strong> 2016</li>
-                            <li><strong>Motor:</strong> 1.340 cc, 4 cilindros em linha, DOHC, 16 válvulas</li>
-                            <li><strong>Potência:</strong> Aproximadamente 197 cv a 9.500 rpm</li>
-                            <li><strong>Torque:</strong> 15,7 kgfm a 7.200 rpm</li>
-                            <li><strong>Transmissão:</strong> Manual de 6 marchas</li>
-                            <li><strong>Tração:</strong> Traseira (por corrente)</li>
-                            <li><strong>0 a 100 km/h:</strong> Cerca de 2,7 segundos</li>
-                            <li><strong>Velocidade máxima:</strong> Limitada eletronicamente a cerca de 299 km/h</li>
-                            <li><strong>Peso:</strong> Aproximadamente 266 kg (com tanque cheio)</li>
-                            <li><strong>Consumo médio:</strong> 14–18 km/l (dependendo do estilo de pilotagem)</li>
-                            <li><strong>Tipo:</strong> Moto esportiva (Sport Touring)</li>
-                            <li><strong>Destaques:</strong> Uma das motos mais rápidas do mundo, conhecida pela potência e estabilidade</li>
+                            <li><strong>Marca:</strong> Renault</li>
+                            <li><strong>Modelo:</strong> Intense</li>
+                            <li><strong>Ano:</strong> 2023</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal de Solicitação - Ford GT 2008 -->
+        <!-- Modal de Solicitação -->
         <div class="modal fade" id="modalDisponivelFordGT2008" tabindex="-1" aria-labelledby="modalDisponivelFordGT2008Label" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalDisponivelFordGT2008Label">Ford GT 2008 disponível!</h5>
+                        <h5 class="modal-title" id="modalDisponivelFordGT2008Label">UNO disponível!</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
