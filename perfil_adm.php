@@ -199,7 +199,7 @@
                                 </tr>
                                 <tr>
                                         <td>Carro</td>
-                                        <td>Honda</td>
+                                        <td>Kwid</td>
                                         <td>DCF58I6</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
@@ -231,10 +231,10 @@
 
                                 <tr>
                                         <td>Moto</td>
-                                        <td>Honda</td>
+                                        <td>Hornet</td>
                                         <td>POH85G4</td>
                                         <td>
-                                            <span class="badge bg-success">Disponível</span>
+                                            <span class="badge bg-warning">Alugado</span>
                                         </td>
                                         <td>
                                             <div class="action-wrapper">
